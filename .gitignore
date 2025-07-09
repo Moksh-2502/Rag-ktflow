@@ -1,0 +1,95 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+venv/
+dist/
+build/
+coverage/
+.nyc_output/
+.webpack/
+.serverless/
+.next/
+.env
+
+# Cache and logs
+.cache/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Prisma
+.prisma/
+prisma/migrations/
+prisma/*.db
+prisma/*.db-journal
+
+# Generated files
+*.tsbuildinfo
+.eslintcache
+.vercel
+
+# Testing
+/coverage
+/.nyc_output
+/test-results/
+
+# Temp directories
+/tmp
+/temp
+
+# Large files
+*.7z
+rag-ktflow.7z
+
+# Python dependencies and virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dll
+*.lib
+*.pyd
+*.a
+venv/
+env/
+.Python
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyTorch specific
+torch_cpu.*
+dnnl.*
+chromadb_rust_bindings.*
+
+# Large library files
+libprotoc.*
+libprotobuf.*
+kineto.*
+libscipy_openblas*
+onnxruntime_*
